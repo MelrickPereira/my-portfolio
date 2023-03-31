@@ -8,7 +8,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header className='sticky top-0 flex items-start justify-between bg-white max-w-7xl mx-auto z-100 xl:items-center m-2 rounded'>
+    <header className='sticky top-0 flex items-start justify-between bg-black max-w-7xl mx-auto z-100 xl:items-center m-2 rounded'>
         <div className='flex flex-row items-center ' >
             {/* social icons using react social icons*/}
             <SocialIcon  url="https://linkedin.com/in/melrickpereira" bgColor="transparent" fgColor="white" />
